@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/* CSS Documen */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+p {
+  font-size: .9em;
+  margin: 0 40px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+h2 {
+  font-size: 1.4em;
+  margin: 0 40px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.2em;
+  margin: 0 40px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+li {
+	font-size: .9em;
+}
+ul li {
+	margin-left: 40px;
+	padding: 6px;
+}
+
+a:link {
+	font-weight: bold;
+	color: #337ab7;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #337ab7;
+}
+a:hover {
+	color: #337ab7;
+  text-decoration: underline;
+}
+
+iframe{
+	margin: 0 40px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+/* Container Style */
+#container {
+  width: 800px;
+  margin: 0 auto;
+  border: 0px solid #000;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Header Styles */
+#header{
+  width: 100%;
+  background-color: #fff;
+  padding: 0;
+  border-bottom: dotted #000 1px;
+}
+#header h3{
+  margin: 0;
+  padding: 20px;
+}
+
+/* Mainbody styles */
+#mainbody{
+  width: 430px;
+  background-color: #fff;
+  padding: 0px;
+  float: left;
+  margin-top: 20px;
+}
+
+/* Sidebody styles */
+#sidebody{
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border: dotted #337ab7 1px;
+  overflow: hidden;
+}
+#sidebody h1 {
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+#sidebody p {
+  font-size: .7em;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+}
+#sidebody img {
+  width: 299px;
+}
+
+/* Footer styles */
+#footer{
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  clear: both;
+  border-top: dotted #000 1px;
+}
+#footer p {
+  font-size: .8em;
+  margin: 0 40px;
+}
