@@ -16,6 +16,7 @@ a.del { color: #FF0000; border-bottom: 1px dotted #FF0000; text-decoration: none
 a:hover.del { color: #FF0000; border-bottom: 1px solid #FF0000; }
 span.c1 { font-size: 17px; }
 span.c2 { font-size: 23px; font-weight: bold; }
+span.c3 { font-size: 9px; }
 a.back { color: #000000; border-bottom: none; text-decoration: none; }
 a:hover.back { color: #000000; border-bottom: none; }
 </style>
@@ -30,6 +31,7 @@ a:hover.back { color: #000000; border-bottom: none; }
 <hr>
 {% for each in tag_items %}
 <span class="c1">{{ each.content }}</span>
+<span class="c3"><a class="del" href="/delete/{{ each.id }}/{{ tag }}">Delete</a></span>
 <hr>
 {% endfor %}
 </body>
